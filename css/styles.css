@@ -1,0 +1,55 @@
+body{
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: azure;
+}
+.head-logo{
+    width: 100px;
+    height: 100px;
+    margin-top: 25px;
+}
+.head-text{
+    margin-top:25px;
+
+}
+.image{
+    width: 100px;
+    height: 100px;
+}
+hr
+{
+    background-color: #eee;
+    border: 0 none;
+    color: black;
+    height: 5px;
+}
+
+.light{
+    color: aliceblue;
+    font-weight: 100;
+}
+ @media only screen and (max-width: 650px) {
+ body{
+
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: azure;
+    font-size: 10px;
+     }
+.head-logo{
+    min-height: 100px;
+    min-width:  100px;
+    margin-top: 25px;
+    font-size: 10px;
+}
+.image{
+    max-height: 250px;
+    max-width: 250px;
+}
+ .head-text{
+    font-size: 14em`;
+}
+
+}
